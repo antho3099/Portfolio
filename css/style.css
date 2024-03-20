@@ -1,0 +1,58 @@
+header h1 {
+  font-family: "Bangers", system-ui;
+  font-size: 50px;
+  color: red;
+  text-align: center;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: whitesmoke;
+}
+header h2 {
+  font-family: "Bangers", system-ui;
+  font-size: 30px;
+  color: red;
+  text-align: center;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: whitesmoke;
+}
+
+body {
+  background: rgb(0, 17, 80);
+  background: linear-gradient(153deg, rgb(0, 17, 80) 6%, rgb(2, 0, 55) 26%, rgb(0, 18, 73) 38%, rgb(4, 14, 122) 52%, rgb(0, 6, 66) 63%, rgb(0, 19, 107) 85%, rgb(227, 0, 0) 90%, rgb(0, 2, 50) 97%) no-repeat;
+}
+
+.recherche details summary {
+  font-family: "Bangers", system-ui;
+  font-size: 30px;
+  color: whitesmoke;
+}
+.recherche details ul {
+  list-style: none;
+}
+.recherche details a {
+  text-decoration: none;
+  color: white;
+  font-family: "Viga", sans-serif;
+  font-size: 20px;
+}
+
+img {
+  width: 60%;
+  margin-left: 20%;
+}
+
+.presentation h2 {
+  font-family: "Bangers", system-ui;
+  font-size: 50px;
+  color: red;
+  text-align: center;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: whitesmoke;
+}
+.presentation p {
+  font-family: "Viga", sans-serif;
+  text-align: center;
+  color: white;
+  font-size: 25px;
+}
+
+/*# sourceMappingURL=style.css.map */
