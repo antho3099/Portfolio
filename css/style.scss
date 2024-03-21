@@ -1,6 +1,12 @@
 @use 'header.scss';
 @use 'footer.scss';
+@use 'profession.scss';
 
+
+*{
+    padding:0;
+    ;
+}
 body{
     background: rgb(0,17,80);
     background: linear-gradient(153deg, rgba(0,17,80,1) 6%, rgba(2,0,55,1) 26%, rgba(0,18,73,1) 38%, rgba(4,14,122,1) 52%, rgba(0,6,66,1) 63%, rgba(0,19,107,1) 85%, rgba(227,0,0,1) 90%, rgba(0,2,50,1) 97%) no-repeat; 
@@ -11,15 +17,21 @@ body{
             font-family: "Bangers", system-ui;
             font-size:30px;
             color:whitesmoke;
+            text-align:center;
+            background: rgb(149,0,0);
+            background: linear-gradient(150deg, rgba(149,0,0,1) 23%, rgba(255,0,0,1) 49%, rgba(152,0,0,1) 100%); 
+            padding:10px;
         }
         ul{
             list-style:none;
+            text-align:center;
         }
         a{
             text-decoration:none;
             color:white;
             font-family: "Viga", sans-serif;
-            font-size:20px;
+            font-size:23px;
+            text-align:center;
 
         }
     }
@@ -42,5 +54,35 @@ img{
         text-align:center;
         color:white;
         font-size:25px;
+    }
+}
+h2{
+    font-family: "Bangers", system-ui;
+    font-size:50px;
+    color:red;
+    text-align: center;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: whitesmoke;
+}
+.profil{
+    img{
+        width:40%;
+        margin-left:30%;
+    }
+    p{
+        text-align: center;
+        color:white;
+        font-family: "Viga", sans-serif;
+        font-size:20px;
+    }
+}
+ul{
+    font-family: "Bangers", system-ui;
+    color: white;
+    li{
+        font-size: 30px;
+        text-align: center;
+        list-style: none;
+        margin-bottom:20px;
     }
 }
