@@ -1,5 +1,4 @@
 @use 'header.scss';
-@use 'footer.scss';
 @use 'profession.scss';
 
 
@@ -129,5 +128,44 @@ h3{
     
 }
 @media screen and (min-width:772px){
-
+    .recherche{
+        details{
+            summary{
+                font-size:45px;
+            }
+            a{
+                font-size:35px;
+            }
+        }
+    }
+    img{
+        width:42%;
+        margin-left:29%;
+    }
+    .profil{
+        p{
+            text-align: center;
+            color:white;
+            font-family: "Viga", sans-serif;
+            font-size:25px;
+        }
+    }
+    ul{
+        li{
+            font-size:50px;
+        }
+    }
+    .job{
+        article{
+            h3{
+                font-size:25px;
+            }
+            h5{
+                font-size:25px;
+            }
+            p{
+                font-size:20px;
+            }
+        }
+    }
 }
