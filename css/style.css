@@ -186,6 +186,12 @@ h3 {
 }
 
 @media screen and (min-width: 772px) {
+  header h1 {
+    font-size: 80px;
+  }
+  header h2 {
+    font-size: 50px;
+  }
   .recherche details summary {
     font-size: 45px;
   }
@@ -213,6 +219,67 @@ h3 {
   }
   .job article p {
     font-size: 20px;
+  }
+  .bag p {
+    font-size: 22px;
+  }
+  .contact p {
+    font-size: 25px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .recherche nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background: rgb(149, 0, 0);
+    background: linear-gradient(150deg, rgb(149, 0, 0) 23%, rgb(255, 0, 0) 49%, rgb(152, 0, 0) 100%) no-repeat;
+  }
+  .recherche nav a {
+    font-size: 32px;
+  }
+  .recherche nav a:hover {
+    background-color: blue;
+    background-size: cover;
+  }
+  img {
+    width: 22%;
+    margin-left: 39%;
+  }
+  .presentation p {
+    font-size: 35px;
+  }
+  .profil img {
+    width: 20%;
+    margin-left: 40%;
+  }
+  h2 {
+    font-size: 60px;
+  }
+  .liste li {
+    font-size: 35px;
+  }
+  .reseau ul {
+    display: flex;
+  }
+  .reseau li {
+    font-size: 20px;
+    text-align: center;
+  }
+  .reseau li img {
+    width: 35%;
+  }
+  .atouts ul li {
+    font-size: 40px;
+  }
+  .langues ul li {
+    font-size: 40px;
+  }
+  .screenshots img {
+    width: 35%;
+  }
+  .screenshots ul {
+    display: flex;
   }
 }
 

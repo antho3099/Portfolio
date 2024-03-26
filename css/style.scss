@@ -128,6 +128,14 @@ h3{
     
 }
 @media screen and (min-width:772px){
+    header{
+        h1{
+            font-size:80px;
+        }
+        h2{
+            font-size:50px;
+        }
+    }
     .recherche{
         details{
             summary{
@@ -166,6 +174,96 @@ h3{
             p{
                 font-size:20px;
             }
+        }
+    }
+    .bag{
+        p{
+            font-size:22px;
+        }
+    }
+    .contact{
+        p{
+            font-size:25px;
+        }
+    }
+}
+@media screen and (min-width:992px){
+    .recherche{
+        nav{
+            ul{
+                display:flex;
+                flex-wrap:wrap;
+                justify-content: space-around;
+                background: rgb(149,0,0);
+                background: linear-gradient(150deg, rgba(149,0,0,1) 23%, rgba(255,0,0,1) 49%, rgba(152,0,0,1) 100%) no-repeat; 
+            }
+            a{
+                font-size:32px;
+            }
+            a:hover{
+                background-color: blue;
+                background-size: cover;
+            }
+        }
+    }
+    img{
+        width:22%;
+        margin-left:39%;
+    }
+    .presentation{
+        p{
+            font-size:35px;
+        }
+    }
+    .profil{
+        img{
+            width:20%;
+            margin-left:40%;
+        }
+    }
+    h2{
+        font-size:60px;
+    }
+    .liste{
+        li{
+            font-size:35px;
+        }
+    }
+    .reseau{
+        ul{
+            display:flex;
+        }
+        li{
+            font-size:20px;
+            text-align: center;
+            img{
+                width:35%;
+            }
+        }
+        
+    }
+    .atouts{
+        ul{
+            li{
+            font-size:40px;
+        }
+        }
+        
+    }
+    .langues{
+        ul{
+            li{
+                font-size:40px;
+            }
+        }
+    }
+    .screenshots{
+        img{
+            width:35%;
+        }
+        ul{
+            display:flex;
+            
         }
     }
 }
