@@ -276,10 +276,17 @@ h3 {
     font-size: 40px;
   }
   .screenshots img {
-    width: 35%;
+    width: 70%;
   }
-  .screenshots ul {
-    display: flex;
+  h3 {
+    font-size: 35px;
+  }
+  .contact img {
+    width: 20%;
+    margin-left: 40%;
+  }
+  .contact p {
+    font-size: 40px;
   }
 }
 
