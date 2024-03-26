@@ -174,4 +174,15 @@ h3 {
   text-align: center;
 }
 
+.contact img {
+  width: 50%;
+  margin-left: 24%;
+}
+.contact p {
+  color: white;
+  font-family: "Viga", sans-serif;
+  font-size: 18px;
+  text-align: center;
+}
+
 /*# sourceMappingURL=style.css.map */
