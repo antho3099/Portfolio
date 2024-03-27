@@ -32,7 +32,7 @@ header h2 {
   font-size: 18px;
 }
 .job article h4 {
-  font-size: 25px;
+  font-size: 20px;
   color: aqua;
 }
 
@@ -224,6 +224,10 @@ h3 {
   .job article p {
     font-size: 20px;
   }
+  .job article h4 {
+    font-size: 25px;
+    color: aqua;
+  }
   .bag p {
     font-size: 22px;
   }
@@ -291,6 +295,19 @@ h3 {
   }
   .contact p {
     font-size: 40px;
+  }
+  .job article h3 {
+    font-size: 25px;
+  }
+  .job article h5 {
+    font-size: 25px;
+  }
+  .job article p {
+    font-size: 20px;
+  }
+  .job article h4 {
+    font-size: 25px;
+    color: aqua;
   }
 }
 
